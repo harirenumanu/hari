@@ -1,0 +1,3 @@
+hello 
+this is the new file 
+we can edit the file in vi editor window 
