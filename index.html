@@ -1,0 +1,92 @@
+<head>
+  <title>
+    password reset page
+    </title>
+  <style>
+    /* Useless styles, just for demo styles */
+    
+    body {
+      font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+      color: #7F8C9A;
+      background: #FCFDFD;
+    }
+    .img {
+      width: 225px;
+      margin: 0 auto;
+      text-align:center;
+      margin-top: 2em;
+      font-size: .9em;
+      color: #0a0909;
+      background-color: #716e6e;
+      padding: 1px 150px;
+      display: block;
+    }
+    .txtcenter {
+      margin-top: 1.5em;
+      font-size: .9em;
+      text-align: center;
+      color: #141212ca;
+    }
+    .copy {
+      margin-top: 1em;
+    }
+    .disclaimer {
+      margin-top: 1.5em;
+      font-size: .9em;
+      text-align: center;
+      color: #b7b1b1e9;
+    }
+    .expire {
+      color: #141212ca;
+      margin-top: 1em;
+    }
+    .hr {
+      color: #cecbcbca;
+      margin-left: 10em;
+      margin-right: 10em;
+      margin-top: 1em;
+    }
+    .copy a {
+      text-decoration: none;
+      color: #1ABC9C;
+    }
+    .aws-1:link, .aws-1:visited {
+      background-color: orange;
+      color: rgb(255, 255, 255);
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-family: "Lucida Console", "Courier New", monospace;
+    }
+    
+    .aws-1:hover, .aws-1:active {
+      background-color: rgb(29, 5, 61);
+    }
+    .aws {
+      margin-top: 1.5em;
+      font-size: .9em;
+      text-align: center;
+      color: #141212ca;
+      padding: 1px 2px;
+    }
+  </style>
+  </head>
+  <body>
+  
+    <div class="img"> 
+      <div class="img-1"> 
+        <img src="https://mma.prnewswire.com/media/1526600/ERPA_Logo.jpg?p=facebook" alt="ERPA" width="100" height="50">
+      </div>
+    </div>
+  
+  
+  <p class="txtcenter">Hi $user,<br> Your AWS directory password expires on $AccountExpirationDate. You will not be<br>able to log in if you don't change your password before it expires.<br>To update your password,</p>
+  <p class="txtcenter copy">Click the link below to reset your password:<br></p>
+  
+  <p class="txtcenter copy"><a class="aws-1" style="background-color: orange"; href="https://us-east-1.signin.aws/platform/resetpassword?workflowStateHandle=aba99f90-0038-4b7e-9fc1-38134664d909">Reset Password</a></p>
+  
+  <p class="txtcenter expire">This link expires in one hour.</p>
+  <!-- <hr class="txtcenter hr"> -->
+  <!-- <p class="txtcenter disclaimer">Amazon Web Services will never email you and ask you to disclose or<br> verify your password, credit card, or banking account number. If you<br>receive a suspicious email with a link to update your account information,<br>do not click on the link. Instead, report the e-mail to Amazon Web Services<br>for investigation. For help and support, visit the<a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Faws.amazon.com%2Fsupport&data=05%7C02%7Charikrishna.renumanu%40erpa.com%7C772c414c68e6484a102808dc837489a7%7C40fea75c71af41c5a18401a936d3e100%7C0%7C0%7C638529783773684735%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=l0%2BoHYgRt5XmaERGlHR%2B%2FhT1lh7c8urgxvkk0PoEtdU%3D&reserved=0">AWS Support Center</a> </p> -->
+  </body>
